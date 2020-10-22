@@ -23,4 +23,4 @@ jobs:
 
       # Runs a single command using the runners 
       - name: Run a one-line script
-        run: ansible-playbook /home/ansadmin/actions-runner/deploy.yml
+        run: ansible-playbook /home/ansadmin/actions-runner/parkar.yml
