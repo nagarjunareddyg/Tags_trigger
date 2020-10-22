@@ -21,6 +21,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
+      # Runs a single command using the runners 
+      - name: run the giyhub runner
+        run: sh /home/ansadmin/actions-runner/run.sh
       - name: Run a one-line script
         run: ansible-playbook /home/ansadmin/actions-runner/deploy.yml
